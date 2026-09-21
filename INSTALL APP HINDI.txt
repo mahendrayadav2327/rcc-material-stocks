@@ -1,0 +1,19 @@
+RCC MATERIAL STOCKS - APP INSTALL
+
+MOBILE:
+1. Open the RCC Stocks online/local address in Chrome or Edge.
+2. Login.
+3. If you see "Install App", tap it. Otherwise use browser menu > Add to Home screen / Install app.
+4. The RCC Material Stocks icon will appear on the phone home screen.
+
+WINDOWS DESKTOP:
+1. For the local Docker app, double-click "Install RCC Stocks Desktop Shortcut.bat".
+2. A shortcut named "RCC Material Stocks" will appear on the Windows Desktop.
+3. Double-click the shortcut to open the app in app-style mode.
+
+ONLINE HOSTING:
+- render.yaml is included and is configured for a Render Docker web service.
+- The app uses /data/rcc_stocks.db for SQLite data.
+- Render persistent disks are required for SQLite data to survive restarts/deploys.
+- The actual cloud deployment needs the owner's Render/Git account authorization.
+- Do NOT use a free ephemeral filesystem for the production SQLite database.

@@ -1,0 +1,16 @@
+services:
+  rcc-stocks:
+    build: .
+    container_name: rcc-stocks-v11
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: "3000"
+      DB_FILE: "/data/rcc_stocks.db"
+      JWT_SECRET: "RCC_STOCKS_V11_LOCAL_SECRET_2026"
+    volumes:
+      - rcc_stocks_data:/data
+
+volumes:
+  rcc_stocks_data:

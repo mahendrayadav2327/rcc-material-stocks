@@ -1,0 +1,56 @@
+RCC MATERIAL STOCKS - ONLINE + MOBILE + COMPUTER
+=================================================
+
+YE PACKAGE KYA KARTA HAI
+-------------------------
+- Same RCC Material Stocks app ko Internet par online chalane ke liye ready hai.
+- Mobile Chrome se khol sakte hain.
+- Chrome me Install App / Add to Home Screen karke mobile me app jaisa icon bana sakte hain.
+- Computer par bhi Chrome/Edge se wahi online URL khulega.
+- Online server par ek hi database rahega, isliye mobile aur computer ek hi data use karenge.
+- Is package me koi old business data/database included nahi hai.
+- Sirf first Admin login automatically create hota hai:
+  Username: admin
+  Password: Admin@123
+
+IMPORTANT
+---------
+Online hosting ke liye server account banana aur deployment karna zaroori hai.
+ZIP ko sirf mobile me download karne se app Internet par automatically live nahi hota.
+
+RENDER PAR DEPLOY KARNE KA AASAN TARIKA
+---------------------------------------
+1. render.com par account banayein.
+2. Is project ko GitHub repository me upload karein.
+3. Render me New > Blueprint select karein.
+4. GitHub repository select karein.
+5. Render automatically render.yaml padhega.
+6. Service create/deploy karein.
+7. Deploy complete hone ke baad Render ek HTTPS URL dega.
+8. Usi URL ko mobile Chrome aur computer Chrome/Edge dono me kholen.
+9. Mobile Chrome menu > Add to Home screen / Install App karein.
+
+DATA SAFETY
+-----------
+- render.yaml me /data par persistent disk configured hai.
+- SQLite database /data/rcc_stocks.db me rahega.
+- Hosting plan me persistent disk/storage available hona zaroori hai. Free/temporary hosting jahan disk reset hoti hai wahan business data mat rakhein.
+- Regular Admin Backup use karke database backup download karte rahein.
+
+FIRST LOGIN
+-----------
+Username: admin
+Password: Admin@123
+
+FIRST SETUP
+-----------
+Login ke baad:
+1. Sites add karein.
+2. Materials add karein.
+3. Suppliers add karein.
+4. Users/permissions set karein.
+5. Uske baad hi stock/transactions add karein.
+
+NO PRELOADED BUSINESS DATA
+--------------------------
+G.M Villa, Salamat Majlis, Zakher Majlis ya koi previous stock/transaction is clean online package me seed nahi kiya gaya hai.

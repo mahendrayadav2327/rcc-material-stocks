@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+rcc_stocks.db
+*.db-shm
+*.db-wal
+.git
+.gitignore
+README*.txt
